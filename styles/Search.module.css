@@ -17,6 +17,32 @@
   width: 100%;
 }
 
+.main a {
+  margin-top: 10px;
+}
+
+.main a:hover {
+  color: blue;
+}
+
+.search input,
+.search button {
+  line-height: 25px;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 3px 6px;
+}
+
+.search input:hover {
+  background-color: antiquewhite;
+}
+
+.search button {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
 .main ul {
   width: 100%;
   list-style: none;

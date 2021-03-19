@@ -17,24 +17,18 @@
   width: 100%;
 }
 
-.main ul {
+.main div {
   width: 100%;
-  list-style: none;
-  margin: 20px 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
-  gap: 25px 10px;
-}
-
-.main li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  list-style: none;
-  margin: 0;
+  margin-bottom: 10px;
 }
 
-.main li img {
-  cursor: pointer;
-  padding-bottom: 5px;
+.main img {
+  margin-bottom: 10px;
+}
+
+.main p {
+  text-align: center;
 }
