@@ -34,7 +34,9 @@ export default function Home({ movies }) {
 }
 
 export async function getServerSideProps() {
-  const response = await fetch("http://localhost:3000/api/trending");
+  const response = await fetch(
+    "https://next-movies-two.vercel.app/api/trending"
+  );
   const { movies } = await response.json();
 
   return {

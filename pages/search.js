@@ -13,7 +13,7 @@ export default function Home() {
 
   async function handleSearch() {
     const response = await fetch(
-      `http://localhost:3000/api/search?name=${searchText}`
+      `https://next-movies-two.vercel.app/api/search?name=${searchText}`
     );
     const { results } = await response.json();
     setMovies(results);
